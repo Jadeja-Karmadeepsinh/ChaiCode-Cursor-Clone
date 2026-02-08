@@ -130,4 +130,24 @@ header{
 
 .hero-img{
     margin-top: 56px;
+    border-radius: 4px;
+}
+
+.trusted-by{
+    display: flex;
+    justify-content: center;
+}
+
+.trusted-by-wrapper{
+    max-width: 1300px;
+    width: 100%;
+}
+
+.trusted-by-heading{
+    text-align: center;
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.14px;
+    line-height: 21px;
 }
