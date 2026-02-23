@@ -359,7 +359,7 @@ header{
 
 .testimonials-card {
     background-color: rgb(27, 25, 19);
-    border: 1px solid rgba(255,255,255,0.08);
+    border: 0.25px solid rgba(255,255,255,0.08);
     border-radius: 4px;
     padding: 1.5rem;
     display: flex;
@@ -414,4 +414,70 @@ header{
     text-align: center;
     margin-bottom: 2rem;
     margin-top: 67.2px;
+}
+
+.frontier-wrapper{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 67.2px;
+    padding-bottom: 112px;
+}
+
+.frontier-card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.frontier-wrapper h2{
+    color: rgb(237, 236, 236);
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: -0.325px;
+    line-height: 32.5px;
+    margin-bottom: 20px;
+}
+
+.frontier-card{
+    background-color: rgb(27, 25, 19);
+    padding: 15.9px 17.5px 17.5px;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    border-color: rgb(237, 236, 236);
+    border-radius: 4px;
+}
+
+.frontier-card h3{
+    color: rgb(237, 236, 236);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.08px;
+    line-height: 24px;
+}
+
+.frontier-card p{
+    color: oklab(0.943853 0.00107113 0.000336707 / 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.08px;
+    line-height: 24px;
+}
+
+.frontier-card a{
+    text-decoration: none;
+    color: rgb(245, 78, 0);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.08px;
+    line-height: 24px;
+    padding-top: 15px;
+}
+
+.frontier-card img{
+    padding-top: 17.5px;
+    height: 392px;
+    width: 392px;
 }
