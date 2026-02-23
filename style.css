@@ -683,3 +683,38 @@ header{
     letter-spacing: 0.08px;
     line-height: 24px;
 }
+
+.try-cursor{
+    padding: 134.4px 20px;
+}
+
+.try-cursor-wrapper{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 90.4px;
+    text-align: center;
+}
+
+.try-cursor-wrapper h2{
+    color: rgb(237, 236, 236);
+    font-size: 72px;
+    font-weight: 400;
+    letter-spacing: -2.16px;
+    line-height: 79.2px;
+    margin-bottom: 22.4px;
+}
+
+.try-cursor-wrapper a{
+    text-decoration: none;
+    background-color: rgb(237, 236, 236);
+    border-radius: 2.68435e+07px;
+    color: rgb(20, 18, 11);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    padding-bottom: 12.8px;
+    padding-left: 21.6px;
+    padding-right: 21.6px;
+    padding-top: 12.48px;
+    text-align: center;
+}
