@@ -78,6 +78,13 @@ project-folder/
 
 ---
 
+## 🌐 Live Demo
+
+🔗 **Deployed on Vercel:**  
+https://chaicode-cursorui-clone.vercel.app/
+
+---
+
 ## 🚀 How to Run
 
 1. Clone the repository:
@@ -96,9 +103,7 @@ No build tools required.
 
 ## 📸 Preview
 
-```
 ![Project Preview](assets/preview.png)
-```
 
 ---
 
