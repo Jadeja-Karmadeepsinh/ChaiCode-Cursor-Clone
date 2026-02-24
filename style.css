@@ -619,12 +619,13 @@ header{
     width: 100%;
     margin: 0 auto;
     display: flex;
+    align-items: flex-start;
 }
 
-/* dont forget to fix this bug in stick postiton i guess its same even in logos */
 .recent-highlights-text{
-    /* position: sticky; */
+    position: sticky;
     top: 64px;
+    align-self: flex-start;
     max-width: 325px;
     width: 100%;
 }
